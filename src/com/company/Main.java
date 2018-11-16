@@ -4,11 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int[] nums = {100, 4, 200, 1, 2, 3, 5};
-
-        LongestConsecutiveSequence testFunc = new LongestConsecutiveSequence();
-
-        System.out.println(testFunc.longestConsecutive(nums));
+//        int[] testNums = {2, 7, 11, 15};
+//        int target = 9;
+//
+//        TwoSum testFunc = new TwoSum();
+//
+//        System.out.println(testFunc.twoSum(testNums, target));
 
 
     }
