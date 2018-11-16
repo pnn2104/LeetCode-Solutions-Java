@@ -4,10 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        String test = "23";
-        LetterPhoneNumber testClass = new LetterPhoneNumber();
+        int[] nums = {100, 4, 200, 1, 2, 3, 5};
 
-        System.out.println(testClass.letterCombinations(test));
+        LongestConsecutiveSequence testFunc = new LongestConsecutiveSequence();
+
+        System.out.println(testFunc.longestConsecutive(nums));
+
 
     }
 }
