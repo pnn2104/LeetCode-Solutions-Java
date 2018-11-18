@@ -11,6 +11,11 @@ public class Main {
 //
 //        System.out.println(testFunc.twoSum(testNums, target));
 
+        NextClosestTime closestTime= new NextClosestTime();
+        String time = "01:32";
+
+        System.out.println("result: " + closestTime.nextClosestTime(time));
+
 
     }
 }
